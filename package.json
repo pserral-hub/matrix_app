@@ -1,0 +1,24 @@
+{
+  "name": "matrix-app",
+  "version": "1.0.0",
+
+  "main": "main.js",
+
+  "scripts": {
+    "start": "ELECTRON_DISABLE_SANDBOX=1 electron .",
+    "build-mac": "electron-builder --mac"
+  },
+
+  "devDependencies": {
+    "electron": "^38.0.0",
+    "electron-builder": "^26.0.0"
+  },
+
+  "build": {
+    "appId": "com.matrix.app",
+
+    "mac": {
+      "target": "dmg"
+    }
+  }
+}

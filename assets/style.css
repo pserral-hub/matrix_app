@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+  color: #00ff00;
+  font-family: monospace;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#console {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  color: red; 
+
+  font-size: 20px;
+  font-family: monospace;
+
+  z-index: 10;
+}
